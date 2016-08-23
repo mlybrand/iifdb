@@ -1,0 +1,12 @@
+* see a web page local
+  - hit localhost and get 200
+  - title should be set
+  - should be able to locate content in the page
+  - apparently I should be able to set up an e2e but also a unit test
+* deploy web page to remote
+* make an api that returns a list of regions
+* make api get regions from PostgreSQL
+* deploy pg-driven api
+
+We need to have a protractor test up and running.
+
