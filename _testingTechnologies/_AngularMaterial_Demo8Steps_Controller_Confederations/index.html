@@ -29,6 +29,15 @@
           <md-icon md-svg-icon="{{cl.selected.logo}}" class="logo"></md-icon>
           <h2>{{cl.selected.name}}</h2>
           <p>{{cl.selected.content}}</p>
+
+
+
+            <md-button class="share" md-no-ink ng-click="cl.makeContact(cl.selected)">
+            <md-icon 
+                md-font-icon="icon-share" 
+                ng-style="{color: 'green', 'font-size':'36px', height:'36px'}">
+            </md-icon>
+            </md-button>
         </md-content>
     </div>
 
@@ -38,10 +47,13 @@
     <script src="bower_components/angular-aria/angular-aria.min.js"></script>
     <script src="bower_components/angular-material/angular-material.min.js"></script>
     <script src="app.js"></script>
+    <script src="server.js"></script>
 
 
     <script>
     angular.module('iifdb', ['ngMaterial', 'confederations']);
+
+   
     </script>
     
   </body>
